@@ -4,7 +4,7 @@
 //
 // Execute `rustlings hint structs2` or use the `hint` watch subcommand for a
 // hint.
-
+//
 
 #[derive(Debug)]
 struct Order {
