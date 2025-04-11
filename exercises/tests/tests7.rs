@@ -34,18 +34,9 @@
 // Execute `rustlings hint tests7` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
-// build.rs
 
-fn main() {
-    // 假设你想设置 TEST_FOO 为当前时间的时间戳
-    let timestamp = std::time::SystemTime::now()
-        .duration_since(std::time::UNIX_EPOCH)
-        .unwrap()
-        .as_secs();
-    println!("cargo:rustc-env=TEST_FOO={}", timestamp);
-}
+fn main() {}
 
 #[cfg(test)]
 mod tests {
